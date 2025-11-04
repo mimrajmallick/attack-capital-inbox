@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+body {
+  @apply bg-[var(--background)] text-[var(--foreground)] min-h-screen;
+  font-family: 'Inter', sans-serif;
+}
